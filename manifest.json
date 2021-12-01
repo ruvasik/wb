@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "WB phones",
+  "version": "0.0.7",
+  "description": "Показывает телефоны с заказов",
+  "content_scripts": [
+    {
+      "matches": ["https://point.wb.ru/orders/*"],
+      "js": ["wbphones.js"]
+    }
+  ]
+}
