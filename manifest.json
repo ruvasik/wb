@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "WB phones",
-  "version": "0.2.18",
+  "version": "0.3.8",
   "description": "Показывает телефоны с заказов",
   "content_scripts": [
     {
